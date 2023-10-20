@@ -19,14 +19,5 @@ export const routes: Routes = [
   {
     path: 'datos',
     loadChildren: () => import('./datos/datos.module').then(m => m.DatosPageModule)
-  },
-  {
-    path: 'movilicacion',
-    loadChildren: () => import('./movilizacion/movilicacion.module').then(m => m.MovilicacionPageModule)
-  },
-  
-  {
-    path: 'inicio',
-    loadChildren: () => import('./inicio/inicio.module').then(m => m.InicioPageModule)
-  },
+  }
 ];
