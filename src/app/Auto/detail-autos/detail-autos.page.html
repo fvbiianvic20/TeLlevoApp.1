@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Detalle</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>ID #{{Auto.id}}</ion-card-subtitle>
+      <ion-card-title>Nombre</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <Strong>{{Auto.rut}}</Strong>
+      <strong>{{Auto.patente}}</strong>
+      <strong>{{Auto.capacidad}}</strong>
+      <strong>{{Auto.metodo_de_pago}}</strong>
+      <strong>{{Auto.comuna}}</strong>
+      <strong>{{Auto.precio}}</strong>
+    </ion-card-content>
+
+    <ion-button [routerLink]="['/update-autos',Auto.id]" color="warning"><ion-icon name="create"></ion-icon></ion-button>
+    <ion-button [routerLink]="['/delete-autos',Auto.id]" color="danger"><ion-icon name="trash"></ion-icon></ion-button>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,24 @@
+{
+  "Auto": [
+    {
+      "id": 1,
+      "nombre": "Felipe Gonzale",
+      "rut": "20345125-8",
+      "patente": "wb13nm",
+      "capacidad": "2",
+      "metodo_de_pago": "Efectivo",
+      "comuna": "Providencia",
+      "precio": "1750"
+    },
+    {
+      "id": 2,
+      "nombre": "Marco Lopez",
+      "rut": "21678234-9",
+      "patente": "pp21we",
+      "capacidad": "1",
+      "metodo_de_pago": "Efectivo",
+      "comuna": "Renca",
+      "precio": "2500"
+    }
+  ]
+}
